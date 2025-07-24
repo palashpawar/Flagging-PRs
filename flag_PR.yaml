@@ -6,7 +6,7 @@ pr:
       - trunk
 
 pool:
-  name: 'ReleaseManagementPool'
+  vmImage: 'ubuntu-latest'
 
 variables:
   TARGET_RELEASE_REQUIRED: 'v16.LTS'
